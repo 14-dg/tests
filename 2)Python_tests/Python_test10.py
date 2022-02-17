@@ -5,4 +5,8 @@ def same_first_last(nums):
   else:
     return "no"
 
+
 print(same_first_last([1, 3, 5, 1]))
+
+print(same_first_last([1, 3, 5, 14]))
+
