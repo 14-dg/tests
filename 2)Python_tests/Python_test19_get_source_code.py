@@ -4,7 +4,7 @@ import matplotlib
 import math
 
 #inspect funktioniert bei allem außer built-in-methods
-#funktioniert sogar bei inspect, aber nicht bei math
+#funktioniert sogar bei inspect, aber nicht bei math weil math aus python stammt
 
 print(inspect.getsource(inspect))
 print(inspect.getabsfile(inspect))
