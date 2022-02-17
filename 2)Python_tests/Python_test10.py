@@ -1,6 +1,6 @@
 def same_first_last(nums):
   first_number=nums[0]
-  if nums[len(nums) -1]==first_number:
+  if nums[-1]==first_number:
     return first_number
   else:
     return "no"
